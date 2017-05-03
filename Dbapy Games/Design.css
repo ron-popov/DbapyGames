@@ -1,0 +1,175 @@
+body
+{
+	font-size:20px;
+	color:white;
+	background-image: url("/Photos/BackgroundTexture.jpg");
+	text-align:center;
+	font-family:cursive;
+}
+
+
+
+button 
+{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+button:focus 
+{
+    border: none;
+}
+
+a
+{
+	color:white;
+}
+
+.GameSidebar
+{
+    background-color:#20ae4e;
+    border:5px solid white;
+    border-radius: 10px;
+    text-align:center;
+    vertical-align:top;
+    height:500px;
+    width:300px;
+}
+
+.GameComment
+{
+    background-color:#3399ff;
+    border:5px solid #ff6600;
+    border-radius: 10px;
+    text-align:left;
+    vertical-align:top;
+    width:inherit;
+    padding:5px;
+}
+
+.UserInfoPanel
+{
+    background-color:#4298f4 ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle ;height:500px;
+}
+
+.UserFavoritesPanel
+{
+    background-color:#8d249a ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle;height:500px;
+}
+
+.UserCommentsPanel
+{
+    background-color:#dd2f2f ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle;height: auto;width:100%;
+}
+
+.UserSettingsPanel
+{
+    background-color:#ccff33 ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle;height: auto;width:100%;
+}
+
+#UserSettingsPanel
+{
+    background-color:#ccff33 ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle;height: auto;width:100%;
+}
+
+#categories { 
+  table-layout: fixed;
+  width: 100%
+}
+
+table{
+	text-align:center;
+	margin-left: auto;
+    margin-right: auto;
+	cellspacing:3px;
+}
+
+
+#container2 {
+  height: 150px;
+  width: 310px;
+  position: relative;
+}
+#image2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text2 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 40px;
+  top: 15px;
+}
+
+#gameForm {
+	margin:20px;
+	padding: 0 10px;
+}
+
+div.background {
+  background: url(/Photos/GameInfo.png);
+  width:300px;
+  height:600px;
+}
+
+div.BackgroundProfile {
+  background: url(/Photos/ProfileInfo.png);
+  width:400px;
+  height:600px;
+}
+
+div.BackgroundCommentsProfile {
+  background: url(/Photos/ProfileComments.png);
+  width:800px;
+  height:400px;
+  background-size: 100% 100%;
+}
+
+
+div.BackgroundSettingsProfile {
+  background: url(/Photos/ProfileComments.png);
+  background-repeat: no-repeat;
+  width:800px;
+  height:800px;
+  background-size: 100% 100%;
+}
+
+div.transbox {
+  margin: 0px ;
+  background-color: rgba(255, 255, 255, 0);
+  color:black;
+  opacity: 1;
+}
+
+div.transbox p {
+  color: #000000;
+}
+
+
+div.GameInfo {
+  text-align: left;
+  margin-left: 16px;
+}
+
+
+a.Link{
+  color:#003366;
+}
+
+div.Comment {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+		padding-right: 24px;
+    padding-left: 24px;
+}
+
+div.AddComment{
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
