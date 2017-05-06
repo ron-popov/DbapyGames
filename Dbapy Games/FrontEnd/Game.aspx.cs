@@ -54,6 +54,7 @@ namespace Dbapy_Games.FrontEnd
             //From this point on all input is validated and only prints the page , game , etc ...
             string gamename = Request.QueryString["game"];
             title = gamename;
+            int gameId = -1;
             css = Base.PrintCss();
             top = Base.PrintTop();
 
@@ -79,9 +80,10 @@ namespace Dbapy_Games.FrontEnd
 
                 #region Game Difficulty
                 {
-                    string query = String.Format("SELECT gameDifficulty FROM tGames WHERE gameName='{0}'" , gamename);
+                    string query = String.Format("SELECT gameDifficulty , gameId FROM tGames WHERE gameName='{0}'" , gamename);
                     DataTable temp = Base.GetDataBase(query);
                     string difficulty = "";
+                    gameId = int.Parse(temp.Rows[0]["gameId"].ToString());
                     switch(int.Parse(temp.Rows[0]["gameDifficulty"].ToString()))
                     {
                         case 1:
@@ -152,6 +154,15 @@ namespace Dbapy_Games.FrontEnd
                                 //User hasn't favorited the game.
                                 sidebar += "<form action='/BackEnd/ToggleFavorite.aspx' method='POST'><input type='submit' value='Favorite'><input type='hidden' name='GameName' value='" + gamename + "'></form>";
                             }
+                        }
+                    }
+                    #endregion
+
+                    #region Edit Game
+                    {
+                        if(uploaderName.Equals(Base.GetUserName()) || Base.GetUserStatus() == 2)
+                        {
+                            sidebar += "<form action='/FrontEnd/EditGame.aspx' method='POST'><input type='submit' value='Edit Game'><input type='Hidden' name='GameId' value='" + gameId + "'></form>";
                         }
                     }
                     #endregion
