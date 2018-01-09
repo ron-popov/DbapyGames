@@ -67,9 +67,13 @@ a
     background-color:#ccff33 ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle;height: auto;width:100%;
 }
 
-#UserSettingsPanel
-{
-    background-color:#ccff33 ;border:3px solid #ffffff ;text-align:center ;vertical-align:middle;height: auto;width:100%;
+#UserSettingsPanel {
+    background-color: #bc8923;
+    border: 3px solid #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
 }
 
 #categories { 
@@ -162,10 +166,7 @@ a.Link{
 
 div.Comment {
     background-color: lightblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-		padding-right: 24px;
-    padding-left: 24px;
+    padding: 10px 24px 10px 24px;
 }
 
 div.AddComment{

@@ -163,3 +163,36 @@ C:\Users\Ron\Documents\Dbapy Games\Dbapy Games\bin\Microsoft.CodeDom.Providers.D
 C:\Users\Ron\Documents\Dbapy Games\Dbapy Games\obj\Debug\Dbapy Games.csprojResolveAssemblyReference.cache
 C:\Users\Ron\Documents\Dbapy Games\Dbapy Games\obj\Debug\Dbapy Games.dll
 C:\Users\Ron\Documents\Dbapy Games\Dbapy Games\obj\Debug\Dbapy Games.pdb
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\ApplicationInsights.config
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\csc.exe
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\vbc.exe
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Dbapy Games.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Dbapy Games.pdb
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.Web.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.Web.xml
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\obj\Debug\Dbapy Games.csprojResolveAssemblyReference.cache
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\obj\Debug\Dbapy Games.csproj.CoreCompileInputs.cache
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\obj\Debug\Dbapy Games.dll
+C:\Users\Ron\Documents\DbapyGames\Dbapy Games\obj\Debug\Dbapy Games.pdb

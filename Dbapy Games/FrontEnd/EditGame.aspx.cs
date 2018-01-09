@@ -22,7 +22,6 @@ namespace Dbapy_Games.FrontEnd
             string gamename                     = "";
             DataTable GameData                  = null;
             int userId                          = -1;
-            int oldGameDifficultyValue          = -1;
             int gameId                          = -1;
 
             #region User Validation

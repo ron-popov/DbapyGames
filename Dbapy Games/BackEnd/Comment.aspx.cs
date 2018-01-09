@@ -95,7 +95,7 @@ namespace Dbapy_Games.BackEnd
                 {
                     Base.ExecNonQuery(query);
                 }
-                catch(Exception ex)
+                catch
                 {
                     Response.Write(Base.Alert("An Error Occured"));
                     try
