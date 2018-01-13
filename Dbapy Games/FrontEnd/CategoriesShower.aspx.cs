@@ -23,7 +23,7 @@ namespace Dbapy_Games.FrontEnd
             {
                 if (Request.QueryString["sort"].Equals("games"))
                 {
-                    sort = "ORDER BY COUNT(tCategoryToGame.gameId)";
+                    sort = "ORDER BY COUNT(tCategoryToGame.gameId) DESC";
                 }
                 else if (Request.QueryString["sort"].Equals("name"))
                 {
